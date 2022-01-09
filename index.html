@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset class="money">
+      <legend class="money__legend">Moneygramm</legend>
+      <form class="money__form">
+          <input class="money__input" type="number" placeholder="0" required name="money_amount">
+          <select class="money__select">
+              <option value="">Currency</option>
+              <option value="usd">USD</option>
+              <option value="rubl">RUBL</option>
+              <option value="euro">EURO</option>
+          </select>
+          <div class="money__result"></div>
+          <button type="submit">Calculate</button>
+      </form>
+    </fieldset>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
